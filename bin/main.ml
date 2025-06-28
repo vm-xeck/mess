@@ -6,7 +6,6 @@ let init () =
     noecho () |> ignore;
     raw () |> ignore;
     nonl ();
-    start_color () |> ignore;
     keypad (stdscr ()) true |> ignore
 
 let finish () = endwin ()
