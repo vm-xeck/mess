@@ -47,16 +47,11 @@ let show (buf: string list) =
         if offset > (max_y-1) then
             ()
         else begin
-            (*match buf with
+            match buf with
             | [] -> ()
             | head :: tail -> begin
                 add_wide_str (head^"\n") |> ignore;
-                show_line tail (offset+1) max_y end*)
-            match max_y with
-            | 0 -> ()
-            | _ ->
-                addstr "ĉi estas 日本語ですの。\n" |> ignore;
-                show_line buf 0 (max_y - 1);
+                show_line tail (offset+1) max_y end
         end
     in
     show_line buf 0 (get_max_y ())
