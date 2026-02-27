@@ -5,11 +5,11 @@
 (generate_opam_files true)
 
 (source
- (github norisense2/mess))
+ (github vm-xeck/mess))
 
 (authors "Nori Sens")
 
-(license "The Unlicense")
+(license "Unlicense")
 
 (package
  (name mess)

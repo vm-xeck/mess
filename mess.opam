@@ -3,9 +3,9 @@ opam-version: "2.0"
 synopsis: "pager"
 description: "p a g e r"
 authors: ["Nori Sens"]
-license: "The Unlicense"
-homepage: "https://github.com/norisense2/mess"
-bug-reports: "https://github.com/norisense2/mess/issues"
+license: "Unlicense"
+homepage: "https://github.com/vm-xeck/mess"
+bug-reports: "https://github.com/vm-xeck/mess/issues"
 depends: [
   "ocaml"
   "dune" {>= "3.15"}
@@ -26,4 +26,4 @@ build: [
     "@doc" {with-doc}
   ]
 ]
-dev-repo: "git+https://github.com/norisense2/mess.git"
+dev-repo: "git+https://github.com/vm-xeck/mess.git"
